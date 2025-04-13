@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub Guide</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        h1, h2, h3 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+        .command {
+            font-family: 'Courier New', monospace;
+            background: #2d2d2d;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            color: #4CAF50;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 15px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 5px;
+        }
+        .tip {
+            background: rgba(76, 175, 80, 0.1);
+            padding: 15px;
+            border-left: 4px solid #4CAF50;
+            margin: 20px 0;
+        }
+        .git-logo {
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="git-logo">🐙 Git & GitHub</div>
+        
+        <div class="section">
+            <h2>What is Git?</h2>
+            <p>Git is a distributed version control system that helps developers track changes in their codebase. It allows multiple people to work on the same project simultaneously without conflicts.</p>
+        </div>
+
+        <div class="section">
+            <h2>Essential Git Commands</h2>
+            <div class="command">git init</div>
+            <p>Initialize a new Git repository</p>
+            
+            <div class="command">git clone [repository-url]</div>
+            <p>Clone an existing repository</p>
+            
+            <div class="command">git add [file]</div>
+            <p>Stage changes for commit</p>
+            
+            <div class="command">git commit -m "commit message"</div>
+            <p>Commit staged changes</p>
+            
+            <div class="command">git push</div>
+            <p>Push changes to remote repository</p>
+            
+            <div class="command">git pull</div>
+            <p>Pull changes from remote repository</p>
+        </div>
+
+        <div class="section">
+            <h2>GitHub Features</h2>
+            <ul class="feature-list">
+                <li>📦 Repository hosting</li>
+                <li>🤝 Collaboration tools</li>
+                <li>🔍 Code review</li>
+                <li>📊 Project management</li>
+                <li>🚀 Continuous Integration/Deployment</li>
+                <li>📝 Issue tracking</li>
+                <li>🌐 GitHub Pages for hosting</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Best Practices</h2>
+            <div class="tip">
+                <h3>Commit Messages</h3>
+                <p>Write clear, descriptive commit messages that explain what changes were made and why.</p>
+            </div>
+            
+            <div class="tip">
+                <h3>Branching Strategy</h3>
+                <p>Use feature branches for new features and bug fixes. Keep the main branch stable.</p>
+            </div>
+            
+            <div class="tip">
+                <h3>Pull Requests</h3>
+                <p>Create pull requests for code review before merging changes to the main branch.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Git Workflow</h2>
+            <ol class="feature-list">
+                <li>Create a new branch for your feature</li>
+                <li>Make changes and commit them</li>
+                <li>Push your branch to GitHub</li>
+                <li>Create a Pull Request</li>
+                <li>Get code review and make changes if needed</li>
+                <li>Merge your changes into the main branch</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
